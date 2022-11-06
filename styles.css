@@ -1,0 +1,66 @@
+/*Kareem Pingue - 620146393*/
+/*CSS file for Super Hero Page*/
+/*Main*/
+body {
+    background-color: #e6e8e6;
+    font-family: Arial;
+  }
+  
+
+header h1 {
+    text-transform: uppercase;
+    padding: 20px;
+    align-self: center;
+}
+
+header {
+    background-color: #4a7b9d;
+    color: #ffff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+  main {
+    margin: 10px 90px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main p {
+    align-self: flex-start;
+  }
+  
+  .result-title,
+  #result h3,
+  #result h4 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .not-found {
+    color: #df2935;
+    align-self: flex-start;
+    text-transform: uppercase;
+  }
+  
+
+/*Button*/
+  #btn {
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 5px;
+    background-color: #df2935;
+    padding: 10px 15px;
+  }
+  /*Search*/
+  #search-box {
+    width: 550px;
+    padding: 15px 15px;
+  }
+
+  #searching {
+    align-items: center;
+    display: inline-flex;
+  }
+  
